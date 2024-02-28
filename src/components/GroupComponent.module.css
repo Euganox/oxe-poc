@@ -1,0 +1,224 @@
+.frameChild {
+  height: 260px;
+  width: 1440px;
+  position: relative;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.b,
+.businessBayMetropolis {
+  position: relative;
+  line-height: 130%;
+  z-index: 2;
+}
+.businessBayMetropolis {
+  width: 271px;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-darkgray-100);
+  display: inline-block;
+}
+.headerGroup {
+  white-space: nowrap;
+}
+.headerGroup,
+.welcomeoxecapital {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  z-index: 2;
+}
+.cityComparison,
+.headerGroupParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.headerGroupParent {
+  gap: 4px 0;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.cityComparison {
+  gap: 20px 0;
+  min-width: 271px;
+}
+.b1 {
+  position: relative;
+  line-height: 130%;
+  z-index: 2;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div {
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-100);
+}
+.div,
+.div1,
+.welcomeoxegroupae {
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  z-index: 2;
+}
+.welcomeoxegroupae {
+  white-space: nowrap;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px 0;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.cityComparison1 {
+  flex-direction: column;
+  gap: 20px 0;
+  min-width: 342px;
+}
+.cityComparison1,
+.groupFrame,
+.penthouseDetails {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupFrame {
+  flex-direction: row;
+  gap: 0 61px;
+}
+.penthouseDetails {
+  flex-direction: column;
+  padding: var(--padding-mid) var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.frameItem {
+  width: 190px;
+  height: 46px;
+  z-index: 2;
+}
+.div2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  z-index: 2;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px 0;
+}
+.socialMedia1Icon {
+  height: 23.8px;
+  width: 23.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.youtubeChannelLinkFrame {
+  height: 26.2px;
+  width: 26.4px;
+  position: relative;
+  min-height: 26px;
+  z-index: 1;
+}
+.youtubeRedCopy1 {
+  width: 28.6px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.vectorImageFrame {
+  flex-direction: column;
+  padding: var(--padding-10xs) var(--padding-12xs) 0 0;
+}
+.frameParent,
+.privacyPolicyFrame,
+.vectorImageFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.privacyPolicyFrame {
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 16px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 33px 0;
+}
+.rectangleParent,
+.socialMediaLinks {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+}
+.socialMediaLinks {
+  width: 234px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkgray-100);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-gray-400);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-7xl) var(--padding-base) var(--padding-53xl)
+    var(--padding-33xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-firebrick);
+  font-family: var(--font-gilroy);
+}
+@media screen and (max-width: 1275px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cityComparison {
+    flex: 1;
+  }
+  .cityComparison1 {
+    flex: 1;
+    min-width: 100%;
+  }
+  .groupFrame {
+    flex-wrap: wrap;
+    gap: 0 61px;
+  }
+  .rectangleParent {
+    padding-left: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .groupFrame {
+    gap: 0 61px;
+  }
+}
